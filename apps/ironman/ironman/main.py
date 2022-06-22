@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from datalib.main import function1
 
 app = FastAPI(
     title='Claimfy API',

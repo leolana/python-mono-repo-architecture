@@ -4,10 +4,13 @@
 			"path": "../",
 		},
 		{
-			"path": "../ironman"
+			"path": "../apps/ironman"
 		},
 		{
-			"path": "../reactorarc"
+			"path": "../apps/reactorarc"
+		},
+		{
+			"path": "../libs/arc/datalib"
 		},
 	]
 }

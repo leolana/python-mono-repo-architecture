@@ -1,0 +1,18 @@
+[tool.poetry]
+authors = ["Leonardo Lana <leolucas.lana@hotmail.com>"]
+description = ""
+name = "ironman"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+fastapi = "^0.78.0"
+python = "^3.10"
+uvicorn = "^0.17.6"
+"arc.datalib" = {path = "../../libs/arc/datalib", develop=true}
+
+[tool.poetry.dev-dependencies]
+pytest = ">=5.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
